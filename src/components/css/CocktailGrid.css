@@ -1,0 +1,25 @@
+.cocktail-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.cocktail-image{
+    height:180px;
+    border-radius: 20px;
+}
+.cocktail-card-small{
+    text-align: center;
+    background: #83AFA0;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+}
+.search-bar{
+    text-align: center;
+    padding-bottom: 20px;
+}
