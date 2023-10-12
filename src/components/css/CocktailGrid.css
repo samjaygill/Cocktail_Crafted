@@ -5,21 +5,38 @@
   padding-left: 80px;
   padding-right: 80px;
 }
-.cocktail-image{
-    height:180px;
-    border-radius: 20px;
+.cocktail-image {
+  height: 180px;
+  border-radius: 20px;
 }
-.cocktail-card-small{
-    text-align: center;
-    background: #83AFA0;
-    padding: 30px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
+.cocktail-card-small {
+  text-align: center;
+  background: #83afa0;
+  padding: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.search-bar {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
-}
-.search-bar{
-    text-align: center;
-    padding-bottom: 20px;
+@media (max-width: 768px) {
+  .cocktail-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cocktail-image {
+    height: 120px;
+    border-radius: 20px;
+  }
+  .cocktail-card-small {
+    padding: 30px;
+    font-size: 15px;
+  }
 }

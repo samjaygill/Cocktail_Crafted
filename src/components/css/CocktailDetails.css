@@ -24,3 +24,15 @@
     list-style-type: none;
     
 }
+
+@media (max-width: 768px) {
+    .cocktail-image-big{
+        height:200px;
+    }
+    .details-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 10px 10px 10px;
+        margin: 0px 15px 10px 15px;
+    }
+  }
